@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21A3A9892BE95EA7001BD98D /* fidelius_macOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A3A9882BE95EA7001BD98D /* fidelius_macOSApp.swift */; };
+		21A3A98B2BE95EA7001BD98D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A3A98A2BE95EA7001BD98D /* ContentView.swift */; };
+		21A3A98D2BE95EA9001BD98D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21A3A98C2BE95EA9001BD98D /* Assets.xcassets */; };
+		21A3A9902BE95EA9001BD98D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21A3A98F2BE95EA9001BD98D /* Preview Assets.xcassets */; };
+		21A3A99B2BE95EA9001BD98D /* fidelius_macOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A3A99A2BE95EA9001BD98D /* fidelius_macOSTests.swift */; };
+		21A3A9A52BE95EA9001BD98D /* fidelius_macOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A3A9A42BE95EA9001BD98D /* fidelius_macOSUITests.swift */; };
+		21A3A9A72BE95EA9001BD98D /* fidelius_macOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A3A9A62BE95EA9001BD98D /* fidelius_macOSUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		21A3A9972BE95EA9001BD98D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21A3A97D2BE95EA6001BD98D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21A3A9842BE95EA7001BD98D;
+			remoteInfo = "fidelius-macOS";
+		};
+		21A3A9A12BE95EA9001BD98D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21A3A97D2BE95EA6001BD98D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21A3A9842BE95EA7001BD98D;
+			remoteInfo = "fidelius-macOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		21A3A9852BE95EA7001BD98D /* fidelius-macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "fidelius-macOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		21A3A9882BE95EA7001BD98D /* fidelius_macOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fidelius_macOSApp.swift; sourceTree = "<group>"; };
+		21A3A98A2BE95EA7001BD98D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		21A3A98C2BE95EA9001BD98D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		21A3A98F2BE95EA9001BD98D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		21A3A9912BE95EA9001BD98D /* fidelius_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = fidelius_macOS.entitlements; sourceTree = "<group>"; };
+		21A3A9962BE95EA9001BD98D /* fidelius-macOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "fidelius-macOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		21A3A99A2BE95EA9001BD98D /* fidelius_macOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fidelius_macOSTests.swift; sourceTree = "<group>"; };
+		21A3A9A02BE95EA9001BD98D /* fidelius-macOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "fidelius-macOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		21A3A9A42BE95EA9001BD98D /* fidelius_macOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fidelius_macOSUITests.swift; sourceTree = "<group>"; };
+		21A3A9A62BE95EA9001BD98D /* fidelius_macOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fidelius_macOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21A3A9822BE95EA7001BD98D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21A3A9932BE95EA9001BD98D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21A3A99D2BE95EA9001BD98D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21A3A97C2BE95EA6001BD98D = {
+			isa = PBXGroup;
+			children = (
+				21A3A9872BE95EA7001BD98D /* fidelius-macOS */,
+				21A3A9992BE95EA9001BD98D /* fidelius-macOSTests */,
+				21A3A9A32BE95EA9001BD98D /* fidelius-macOSUITests */,
+				21A3A9862BE95EA7001BD98D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		21A3A9862BE95EA7001BD98D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21A3A9852BE95EA7001BD98D /* fidelius-macOS.app */,
+				21A3A9962BE95EA9001BD98D /* fidelius-macOSTests.xctest */,
+				21A3A9A02BE95EA9001BD98D /* fidelius-macOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21A3A9872BE95EA7001BD98D /* fidelius-macOS */ = {
+			isa = PBXGroup;
+			children = (
+				21A3A9882BE95EA7001BD98D /* fidelius_macOSApp.swift */,
+				21A3A98A2BE95EA7001BD98D /* ContentView.swift */,
+				21A3A98C2BE95EA9001BD98D /* Assets.xcassets */,
+				21A3A9912BE95EA9001BD98D /* fidelius_macOS.entitlements */,
+				21A3A98E2BE95EA9001BD98D /* Preview Content */,
+			);
+			path = "fidelius-macOS";
+			sourceTree = "<group>";
+		};
+		21A3A98E2BE95EA9001BD98D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				21A3A98F2BE95EA9001BD98D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		21A3A9992BE95EA9001BD98D /* fidelius-macOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				21A3A99A2BE95EA9001BD98D /* fidelius_macOSTests.swift */,
+			);
+			path = "fidelius-macOSTests";
+			sourceTree = "<group>";
+		};
+		21A3A9A32BE95EA9001BD98D /* fidelius-macOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				21A3A9A42BE95EA9001BD98D /* fidelius_macOSUITests.swift */,
+				21A3A9A62BE95EA9001BD98D /* fidelius_macOSUITestsLaunchTests.swift */,
+			);
+			path = "fidelius-macOSUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		21A3A9842BE95EA7001BD98D /* fidelius-macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21A3A9AA2BE95EA9001BD98D /* Build configuration list for PBXNativeTarget "fidelius-macOS" */;
+			buildPhases = (
+				21A3A9812BE95EA7001BD98D /* Sources */,
+				21A3A9822BE95EA7001BD98D /* Frameworks */,
+				21A3A9832BE95EA7001BD98D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "fidelius-macOS";
+			productName = "fidelius-macOS";
+			productReference = 21A3A9852BE95EA7001BD98D /* fidelius-macOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		21A3A9952BE95EA9001BD98D /* fidelius-macOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21A3A9AD2BE95EA9001BD98D /* Build configuration list for PBXNativeTarget "fidelius-macOSTests" */;
+			buildPhases = (
+				21A3A9922BE95EA9001BD98D /* Sources */,
+				21A3A9932BE95EA9001BD98D /* Frameworks */,
+				21A3A9942BE95EA9001BD98D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21A3A9982BE95EA9001BD98D /* PBXTargetDependency */,
+			);
+			name = "fidelius-macOSTests";
+			productName = "fidelius-macOSTests";
+			productReference = 21A3A9962BE95EA9001BD98D /* fidelius-macOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		21A3A99F2BE95EA9001BD98D /* fidelius-macOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21A3A9B02BE95EA9001BD98D /* Build configuration list for PBXNativeTarget "fidelius-macOSUITests" */;
+			buildPhases = (
+				21A3A99C2BE95EA9001BD98D /* Sources */,
+				21A3A99D2BE95EA9001BD98D /* Frameworks */,
+				21A3A99E2BE95EA9001BD98D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21A3A9A22BE95EA9001BD98D /* PBXTargetDependency */,
+			);
+			name = "fidelius-macOSUITests";
+			productName = "fidelius-macOSUITests";
+			productReference = 21A3A9A02BE95EA9001BD98D /* fidelius-macOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		21A3A97D2BE95EA6001BD98D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					21A3A9842BE95EA7001BD98D = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					21A3A9952BE95EA9001BD98D = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 21A3A9842BE95EA7001BD98D;
+					};
+					21A3A99F2BE95EA9001BD98D = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 21A3A9842BE95EA7001BD98D;
+					};
+				};
+			};
+			buildConfigurationList = 21A3A9802BE95EA6001BD98D /* Build configuration list for PBXProject "fidelius-macOS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 21A3A97C2BE95EA6001BD98D;
+			productRefGroup = 21A3A9862BE95EA7001BD98D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				21A3A9842BE95EA7001BD98D /* fidelius-macOS */,
+				21A3A9952BE95EA9001BD98D /* fidelius-macOSTests */,
+				21A3A99F2BE95EA9001BD98D /* fidelius-macOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		21A3A9832BE95EA7001BD98D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21A3A9902BE95EA9001BD98D /* Preview Assets.xcassets in Resources */,
+				21A3A98D2BE95EA9001BD98D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21A3A9942BE95EA9001BD98D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21A3A99E2BE95EA9001BD98D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21A3A9812BE95EA7001BD98D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21A3A98B2BE95EA7001BD98D /* ContentView.swift in Sources */,
+				21A3A9892BE95EA7001BD98D /* fidelius_macOSApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21A3A9922BE95EA9001BD98D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21A3A99B2BE95EA9001BD98D /* fidelius_macOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21A3A99C2BE95EA9001BD98D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21A3A9A52BE95EA9001BD98D /* fidelius_macOSUITests.swift in Sources */,
+				21A3A9A72BE95EA9001BD98D /* fidelius_macOSUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		21A3A9982BE95EA9001BD98D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21A3A9842BE95EA7001BD98D /* fidelius-macOS */;
+			targetProxy = 21A3A9972BE95EA9001BD98D /* PBXContainerItemProxy */;
+		};
+		21A3A9A22BE95EA9001BD98D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21A3A9842BE95EA7001BD98D /* fidelius-macOS */;
+			targetProxy = 21A3A9A12BE95EA9001BD98D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		21A3A9A82BE95EA9001BD98D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		21A3A9A92BE95EA9001BD98D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		21A3A9AB2BE95EA9001BD98D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "fidelius-macOS/fidelius_macOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"fidelius-macOS/Preview Content\"";
+				DEVELOPMENT_TEAM = 53HF2AGH75;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Steven-Quintana.fidelius-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		21A3A9AC2BE95EA9001BD98D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "fidelius-macOS/fidelius_macOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"fidelius-macOS/Preview Content\"";
+				DEVELOPMENT_TEAM = 53HF2AGH75;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Steven-Quintana.fidelius-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		21A3A9AE2BE95EA9001BD98D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 53HF2AGH75;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Steven-Quintana.fidelius-macOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fidelius-macOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/fidelius-macOS";
+			};
+			name = Debug;
+		};
+		21A3A9AF2BE95EA9001BD98D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 53HF2AGH75;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Steven-Quintana.fidelius-macOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fidelius-macOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/fidelius-macOS";
+			};
+			name = Release;
+		};
+		21A3A9B12BE95EA9001BD98D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 53HF2AGH75;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Steven-Quintana.fidelius-macOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "fidelius-macOS";
+			};
+			name = Debug;
+		};
+		21A3A9B22BE95EA9001BD98D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 53HF2AGH75;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Steven-Quintana.fidelius-macOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "fidelius-macOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21A3A9802BE95EA6001BD98D /* Build configuration list for PBXProject "fidelius-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21A3A9A82BE95EA9001BD98D /* Debug */,
+				21A3A9A92BE95EA9001BD98D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21A3A9AA2BE95EA9001BD98D /* Build configuration list for PBXNativeTarget "fidelius-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21A3A9AB2BE95EA9001BD98D /* Debug */,
+				21A3A9AC2BE95EA9001BD98D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21A3A9AD2BE95EA9001BD98D /* Build configuration list for PBXNativeTarget "fidelius-macOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21A3A9AE2BE95EA9001BD98D /* Debug */,
+				21A3A9AF2BE95EA9001BD98D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21A3A9B02BE95EA9001BD98D /* Build configuration list for PBXNativeTarget "fidelius-macOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21A3A9B12BE95EA9001BD98D /* Debug */,
+				21A3A9B22BE95EA9001BD98D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 21A3A97D2BE95EA6001BD98D /* Project object */;
+}
