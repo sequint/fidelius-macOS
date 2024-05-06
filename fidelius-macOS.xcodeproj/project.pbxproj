@@ -14,6 +14,7 @@
 		21A3A99B2BE95EA9001BD98D /* fidelius_macOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A3A99A2BE95EA9001BD98D /* fidelius_macOSTests.swift */; };
 		21A3A9A52BE95EA9001BD98D /* fidelius_macOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A3A9A42BE95EA9001BD98D /* fidelius_macOSUITests.swift */; };
 		21A3A9A72BE95EA9001BD98D /* fidelius_macOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A3A9A62BE95EA9001BD98D /* fidelius_macOSUITestsLaunchTests.swift */; };
+		21A3A9B62BE95F8D001BD98D /* Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A3A9B52BE95F8D001BD98D /* Title.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		21A3A9A02BE95EA9001BD98D /* fidelius-macOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "fidelius-macOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		21A3A9A42BE95EA9001BD98D /* fidelius_macOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fidelius_macOSUITests.swift; sourceTree = "<group>"; };
 		21A3A9A62BE95EA9001BD98D /* fidelius_macOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fidelius_macOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		21A3A9B52BE95F8D001BD98D /* Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Title.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,8 @@
 		21A3A9872BE95EA7001BD98D /* fidelius-macOS */ = {
 			isa = PBXGroup;
 			children = (
+				21A3A9B42BE95F60001BD98D /* Logic */,
+				21A3A9B32BE95F56001BD98D /* Views */,
 				21A3A9882BE95EA7001BD98D /* fidelius_macOSApp.swift */,
 				21A3A98A2BE95EA7001BD98D /* ContentView.swift */,
 				21A3A98C2BE95EA9001BD98D /* Assets.xcassets */,
@@ -127,6 +131,21 @@
 				21A3A9A62BE95EA9001BD98D /* fidelius_macOSUITestsLaunchTests.swift */,
 			);
 			path = "fidelius-macOSUITests";
+			sourceTree = "<group>";
+		};
+		21A3A9B32BE95F56001BD98D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				21A3A9B52BE95F8D001BD98D /* Title.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		21A3A9B42BE95F60001BD98D /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Logic;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				21A3A98B2BE95EA7001BD98D /* ContentView.swift in Sources */,
+				21A3A9B62BE95F8D001BD98D /* Title.swift in Sources */,
 				21A3A9892BE95EA7001BD98D /* fidelius_macOSApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
