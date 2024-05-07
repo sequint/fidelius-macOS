@@ -11,7 +11,10 @@ import SwiftUI
 struct fidelius_macOSApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ZStack {
+                Color.white
+                ContentView()
+            }
         }
     }
 }
