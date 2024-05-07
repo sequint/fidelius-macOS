@@ -14,6 +14,7 @@ struct Main: Scene {
                 Color.white
                 VStack {
                     Title()
+                    AddCredBtn()
                 }
                 .padding()
             }
