@@ -10,7 +10,11 @@ import Foundation
 func addCredential(name: String, passLength: Int = 64) -> Void {
     let password: String = generatePassword(passLength: passLength)
     
-    print("\(name): \(password)")
+    let credential = Credential(name: name, password: password)
+    
+    print("Name: \(credential.name)")
+    print("Password: \(credential.password)")
+    
 }
 
 func generatePassword(passLength: Int) -> String {

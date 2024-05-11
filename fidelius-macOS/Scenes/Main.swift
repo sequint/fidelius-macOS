@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import SwiftData
 
 struct Main: Scene {
     var body: some Scene {
@@ -19,6 +20,7 @@ struct Main: Scene {
                 .padding()
             }
         }
+        .modelContainer(for: Credential.self)
     }
 }
 

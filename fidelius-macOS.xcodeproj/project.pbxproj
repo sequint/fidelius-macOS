@@ -17,6 +17,7 @@
 		21A3A9BA2BEA791C001BD98D /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A3A9B92BEA791C001BD98D /* Main.swift */; };
 		21A3A9BE2BEA7C03001BD98D /* AddCredBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A3A9BD2BEA7C03001BD98D /* AddCredBtn.swift */; };
 		21A3A9CD2BEAD373001BD98D /* AddCredential.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A3A9CC2BEAD373001BD98D /* AddCredential.swift */; };
+		21CB37002BEFA860008AE5CC /* Credential.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21CB36FF2BEFA860008AE5CC /* Credential.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		21A3A9B92BEA791C001BD98D /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
 		21A3A9BD2BEA7C03001BD98D /* AddCredBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCredBtn.swift; sourceTree = "<group>"; };
 		21A3A9CC2BEAD373001BD98D /* AddCredential.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCredential.swift; sourceTree = "<group>"; };
+		21CB36FF2BEFA860008AE5CC /* Credential.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Credential.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		21A3A9872BE95EA7001BD98D /* fidelius-macOS */ = {
 			isa = PBXGroup;
 			children = (
+				21CB36FE2BEFA846008AE5CC /* Models */,
 				21A3A9882BE95EA7001BD98D /* fidelius_macOSApp.swift */,
 				21A3A9B82BEA752D001BD98D /* Scenes */,
 				21A3A9B32BE95F56001BD98D /* Views */,
@@ -160,6 +163,14 @@
 				21A3A9CC2BEAD373001BD98D /* AddCredential.swift */,
 			);
 			path = Actions;
+			sourceTree = "<group>";
+		};
+		21CB36FE2BEFA846008AE5CC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				21CB36FF2BEFA860008AE5CC /* Credential.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -297,6 +308,7 @@
 				21A3A9B62BE95F8D001BD98D /* Title.swift in Sources */,
 				21A3A9CD2BEAD373001BD98D /* AddCredential.swift in Sources */,
 				21A3A9BE2BEA7C03001BD98D /* AddCredBtn.swift in Sources */,
+				21CB37002BEFA860008AE5CC /* Credential.swift in Sources */,
 				21A3A9892BE95EA7001BD98D /* fidelius_macOSApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
